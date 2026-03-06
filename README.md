@@ -12,17 +12,21 @@ This project implements a Next-Word Prediction model using LSTM (Long Short-Term
 - Easy-to-use Python script for inference
 
 ## Files
-- `app.py`: Main script for running the next-word prediction model
-- `experiemnts.ipynb`: Jupyter notebook for model training, evaluation, and experimentation
-- `hamlet.txt`: Source text used for training the model
-- `next_word_lstm_model_with_early_stopping.h5`: Pre-trained model with early stopping
-- `next_word_lstm.h5`: Pre-trained model without early stopping
-- `requirements.txt`: List of required Python packages
+ - `app.py`: Main script for running the next-word prediction model
+ - `streamlit_app.py`: Streamlit web app for interactive next-word prediction
+ - `experiemnts.ipynb`: Jupyter notebook for model training, evaluation, and experimentation
+ - `hamlet.txt`: Source text used for training the model
+ - `next_word_lstm_model_with_early_stopping.h5`: Pre-trained model with early stopping
+ - `next_word_lstm.h5`: Pre-trained model without early stopping
+ - `requirements.txt`: List of required Python packages
 
 ## Getting Started
 ### Prerequisites
 - Python 3.7+
 - pip
+
+#### For Streamlit Web App
+- streamlit
 
 ### Installation
 1. Clone this repository or download the project files.
@@ -31,8 +35,19 @@ This project implements a Next-Word Prediction model using LSTM (Long Short-Term
    pip install -r requirements.txt
    ```
 
+3. For Streamlit app, also install streamlit:
+   ```bash
+   pip install streamlit
+   ```
+
 ### Usage
-#### Run the Prediction Script
+
+#### Run the Streamlit Web App
+```bash
+streamlit run streamlit_app.py
+```
+
+#### Run the Prediction Script (CLI)
 ```bash
 python app.py
 ```
