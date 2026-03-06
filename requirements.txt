@@ -1,12 +1,8 @@
-tensorboard
+tensorflow>=2.13.0
 streamlit>=1.45.0
-tensorflow==2.15.0
-streamlit
 scikeras
 pandas
 numpy
 scikit-learn
 tensorboard
 matplotlib
-streamlit
-scikeras
