@@ -1,8 +1,8 @@
 tensorboard
+streamlit>=1.45.0
+tensorflow==2.15.0
 streamlit
 scikeras
-streamlit>=1.45.0
-tensorflow>=2.13.0
 pandas
 numpy
 scikit-learn
